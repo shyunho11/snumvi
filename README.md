@@ -13,3 +13,6 @@ http://localhost:2222
 unset DISPLAY  
 coss_vgpu -g 1  
 conda activate snumvi
+
+git config --global credential.helper cache
+git config --global --unset credential.helper
