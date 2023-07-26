@@ -17,5 +17,7 @@ conda activate snumvi
 git config --global credential.helper cache  
 git config --global --unset credential.helper  
 
-python -m ipykernel install --user --name snumvi --display-name snumvi  
+conda activate snumvi  
+pip install ipykernel  
+python -m ipykernel install --user --name snumvi  
 jupyter kernelspec uninstall snumvi
